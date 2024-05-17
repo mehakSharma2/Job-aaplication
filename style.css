@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(135deg,rgba(34, 140, 220,0.5),rgba(142, 117, 228,0.8));
+}
+h2{
+    text-align: center;
+}
+.application_form{
+  margin-top: 25px;
+  width: 800px;
+  height: 680px;
+  padding: 20px;
+  border-radius: 5px;
+  background-color:#ffffff; 
+  box-shadow: -10px -10px 10px rgba(0,0,0,0.2),10px 10px 10px rgba(142, 117, 228,0.8);
+}
+
+.heading{
+    font-size: 2rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: transparent;
+    text-shadow: 0 0 0 #33333333;
+    background: linear-gradient(135deg,rgba(34, 140, 220,0.5),rgba(142, 117, 228,0.8));
+    background-clip: text;
+}
+
+.details{
+    position: relative;
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.input_details{
+    width: calc(100% / 2 - 20px);
+    padding: 10px;
+}
+input{
+    height: 40px;
+    width: 100%;
+    border-radius: 5px;
+}
+#input{
+    height: 40px;
+    width: 100%;
+    border-radius: 5px;
+}
+#address{
+    height: 95px;
+    width: 206%;
+    border-radius: 5px;
+    border: 0.1px solid black;
+}
+#CV{
+    font-size: large;
+ position: relative;
+ margin-left: 500px;
+}
+button{
+    height: 50px;
+    border-radius: 5px;
+    font-size:1rem;
+    border: none;
+    position: relative;
+    padding: 10px;
+    margin-left: 600px;
+    margin-bottom: 25px;
+    color: #ffffff;
+    background: linear-gradient(135deg,rgba(34, 140, 220,0.5),rgba(142, 117, 228,0.8));
+}
+
+button:hover{
+    box-shadow: 5px 5px 3px rgba(142, 117, 228,0.9);
+}
+
+.application_form:hover{
+    border: 2px solid rgba(142, 117, 228,0.9);
+}

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job application</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="@media_quires.css">
+
+</head>
+<body>
+    <div class="application_form">
+      <form action="#">
+        <div class="heading"><h2>Job Application Form </h2></div>
+        <div class="details">
+        <div class="input_details">
+          <span>FIRST NAME</span>
+          <input type="text" placeholder="Enter your first name">
+        </div>
+
+        <div class="input_details">
+          <span>LAST NAME</span>
+          <input type="text" placeholder="Enter your last name">
+        </div>
+
+        <div class="input_details">
+          <span>EMAIL</span>
+          <input type="email" placeholder="Enter your email">
+        </div>
+
+        <div class="input_details">
+          <span> MOBILE NUMBER</span>
+          <input type="number" placeholder="Enter your last name">
+        </div>
+
+        <div class="input_details">
+          <span> JOB ROLE</span>
+          <select name="job_role" id="input">
+            <option value="">Select the Job Role</option>
+            <option value="frontend">Frontend Developer</option>
+            <option value="backend">Backend Developer</option>
+            <option value="ui_ux">UI/UX Developer</option>
+          </select>
+        </div>
+
+        <div class="input_details">
+          <span> CITY</span>
+          <input type="text" placeholder="Enter your city">
+        </div>
+
+        <div class="input_details">
+          <span> PINCODE</span>
+          <input type="pin" placeholder="Enter your pin ">
+        </div>
+
+        <div class="input_details">
+          <span> DOB</span>
+          <input type="date" placeholder="12-12-2012">
+        </div>
+
+        <div class="input_details">
+          <span> ADDRESS</span>
+          <textarea id="address" placeholder="Enter your address" ></textarea>
+        </div>
+
+      </div>
+
+      <div class="input_details" id="CV">
+        <span> UPLOAD CV </span>
+        <input  id="file_type" type="file">
+      </div>
+
+      <button id="submit">APPLY NOW</button>
+
+
+
+
+      </form>
+    </div>
+
+  
+</body>
+</html>

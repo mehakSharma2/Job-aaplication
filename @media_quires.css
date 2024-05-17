@@ -1,0 +1,81 @@
+@media(200px<width<600px){
+    .application_form{
+        width:50%;
+        height: 50%;
+      }
+
+      .heading{
+        font-size:0.6rem;
+    }
+
+    
+.details{
+    font-size: 0.5rem;
+}
+
+.input_details{
+    width: calc(100% / 2 - 0px);
+    padding: 5px;
+}
+span{
+    font-size: 0.4rem;
+}
+      
+input{
+    border-width: 1px;
+    font-size: 0.4rem;
+    height: 20px;
+    width: 100%;
+    border-radius:2px;
+}
+
+#input{
+    font-size: 0.35rem;
+    height: 20px;
+    width: 100%;
+    border-radius:2px;
+
+}
+
+#address{
+    font-size: 0.4rem;
+    height:30px;
+    width: 206%;
+    border-radius: 2px;
+}
+
+#CV{
+ font-size: 0.5rem;
+ position: relative;
+ margin-left:90px;
+}
+
+#file_type{
+    font-size: 0.2rem;
+}
+
+button{
+    width: 50px;
+    height: 20px;
+    border-radius: 5px;
+    border: none;
+    font-size:0.39rem;
+    position: relative;
+    padding: 5px;
+    margin-left: 100px;
+    margin-bottom: 15px;
+}
+
+button:hover{
+    box-shadow: 2px 2px 3px rgba(142, 117, 228,0.9);
+}
+
+.application_form:hover{
+    border: 2px solid rgba(142, 117, 228,0.9);
+}
+
+
+
+
+
+}
